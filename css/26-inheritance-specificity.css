@@ -3,22 +3,20 @@ body {
   font-weight: 700;
 }
 
-.menu{
+.menu {
   color: gray;
   font-size: 36px;
-  border: 5px dashed green;
+  border: 5px green dashed;
 }
 
-ul.menu li{
-background-color: pink;
-
-}
-
-ul.menu li.pick{
+.menu .pick {
   background-color: yellow;
 }
 
-.menu a{
-  color: inherit;
+.menu li {
+  background-color: pink;
+}
 
+.menu a {
+  color: inherit;
 }
